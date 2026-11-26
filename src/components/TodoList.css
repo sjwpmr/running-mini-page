@@ -1,0 +1,35 @@
+
+.TodoList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.TodoList h4 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.TodoList input {
+    width: 100%;
+    padding: 13px 15px;
+    background: #242424;
+    border: 1px solid #383838;
+    border-radius: 8px;
+    color: #ffffff;
+    outline: none;
+}
+
+.TodoList input:focus {
+    border-color: #C8F902;
+}
+
+.TodoList input::placeholder {
+    color: #777777;
+}
+
+.todos-wrapper {
+    display: flex;
+    flex-direction: column;
+}

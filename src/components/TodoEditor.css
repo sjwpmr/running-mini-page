@@ -1,0 +1,40 @@
+.TodoEditor {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.TodoEditor input {
+    flex: 1;
+    min-width: 0;
+    padding: 14px;
+    background: #292929;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    color: #ffffff;
+    outline: none;
+}
+
+.TodoEditor input:focus {
+    border-color: #C8F902;
+}
+
+.TodoEditor input::placeholder {
+    color: #777777;
+}
+
+.TodoEditor button {
+    padding: 0 20px;
+    background: #C8F902;
+    border: none;
+    border-radius: 8px;
+    color: #111111;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.TodoEditor button:hover {
+    background: #e0ff48;
+    transform: translateY(-2px);
+}
