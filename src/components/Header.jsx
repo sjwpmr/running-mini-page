@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header className='Header'>
-            <h3>🏃‍♂️나만의 달리기 기록🏃‍♀️</h3>
+            <h3>오늘은 📆</h3>
 
             <div className="date-header">
                 <h1>{new Date().toDateString()}</h1>

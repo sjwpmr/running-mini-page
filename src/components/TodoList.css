@@ -1,8 +1,7 @@
-
 .TodoList {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 18px;
 }
 
 .TodoList h4 {
@@ -12,17 +11,16 @@
 }
 
 .TodoList input {
-    width: 100%;
-    padding: 13px 15px;
-    background: #242424;
-    border: 1px solid #383838;
-    border-radius: 8px;
+    padding: 14px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444444;
     color: #ffffff;
     outline: none;
 }
 
 .TodoList input:focus {
-    border-color: #C8F902;
+    border-bottom-color: #C8F902;
 }
 
 .TodoList input::placeholder {
